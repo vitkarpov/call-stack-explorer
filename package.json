@@ -10,6 +10,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
+    "react-tree-graph": "^4.0.1",
     "typescript": "3.6.4"
   },
   "scripts": {
@@ -17,6 +18,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "compilerOptions": {
+    "typeRoots": [
+      "./src/types"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
