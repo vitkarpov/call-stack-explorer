@@ -3,3 +3,28 @@ path.link.red {
     stroke-dasharray: 5;
     stroke-width: 1.5px;
 }
+
+.app-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px dotted lightgray;
+    background: lightyellow;
+}
+
+.form-row {
+    padding: 12px 0;
+    border: 0;
+}
+
+.form-code,
+.form-arg {
+    font-family: monospace;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+.tree-wrapper {
+    margin-top: 20px;
+    border: 1px solid lightsalmon;
+}
